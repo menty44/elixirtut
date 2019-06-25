@@ -6,5 +6,11 @@ defmodule ElixirnewTest do
     assert Elixirnew.hello() == :world
   end
 
+  test "test my number" do
+    assert Elixirnew.mynum() == true
+  end
+
 
 end
+
+

@@ -15,4 +15,9 @@ defmodule Elixirnew do
   def hello do
     :world
   end
+
+  def mynum do
+    is_number(21)
+  end
+
 end
